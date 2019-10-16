@@ -1,0 +1,45 @@
+body{
+	background: LightSalmon;
+}
+
+header{
+	height: 80px;
+	width: 100%;
+	background: DarkRed;
+	color: white;
+}
+
+header h1 {
+	margin: 0px;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+nav{
+	height: 40px;
+	width: 100%;
+	background: Crimson;
+	text-align: center;
+	border-top: 2px dotted white;
+	border-bottom: 2px dotted white;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	width: 100px;
+	background: IndianRed;
+	color: white;
+	margin: 05px 02px;
+	padding: 05px 10px;
+}
+
+.contents{
+    padding-top: 10px;
+	background: pink;
+	width: 100%;
+    min-height: 500px;
+}
+.contents table{
+	margin: auto;
+}
